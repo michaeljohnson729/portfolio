@@ -1,0 +1,44 @@
+#logos {
+    height: 50px;
+    width: 50px;
+    margin: 5px 0px 20px 45%;
+   
+}
+
+#phone-logo {
+    height: 40px;
+    width: 40px;
+    margin: 5px 0px 20px 45%;
+}
+
+@media only screen and (max-width: 1156px) {
+    .profile-links {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 947px) {
+   .profile-links {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .card {
+        margin: 0px;
+        width: 100%;
+        border: 0px;
+        padding: 10px;
+        background: white;
+    }
+
+    .logos, .phone-logo {
+        margin: 5px auto;
+    }
+    
+    .profile-links {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}

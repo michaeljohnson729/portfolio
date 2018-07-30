@@ -1,0 +1,71 @@
+body {
+  background-image: url("../imgs/IMG_2358.jpg");
+  background-size: 100%;
+}
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8 {
+    width: 1669px;
+    height: 1233px;
+    max-width: 2000px;
+    margin: auto;
+  }
+
+  .title-container > .title-header {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1000;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-shadow: 0 3px 5px #999, 0 1px 3px #999;
+  }
+  
+  .title-container > .title-links {
+    
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 1000;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    text-shadow: 0 1px 3px #999, 0 1px 3px #999;
+  }
+
+  .about-button, .portfolio-button, .contact-button {
+    color: black;
+  }
+
+  @media only screen and (max-width: 414px) {
+    body {
+      background-image: url("../imgs/IMG_2358.jpg");
+      background-size: 100%;
+    }
+    .carousel {
+      display: none;
+    }
+    .title-container > .title-header {
+      width: 300px;
+      top: 100px;
+      left: auto;
+      margin-left: 57px;
+      
+    }
+    .title-container > .title-links {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border: solid 0px;
+      border-radius: 5px;
+      width: 250px;
+      left: auto;
+      margin-left: 82px;
+  }
+}
