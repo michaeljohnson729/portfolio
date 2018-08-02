@@ -1,6 +1,7 @@
 import React from 'react';
 import "./InfoCard.css";
 import img from "../../imgs/profile.jpg";
+import img2 from "../../imgs/IMG_3302.jpg";
 
 const InfoCard = props => {
         return (
@@ -24,11 +25,27 @@ const InfoCard = props => {
                 <p className="bio">Through the Bootcamp, I was able to develop skills that allow me to build full stack web applications. The technologies I learned were HTML5, CSS, Javascript, jQuery, Node.js, React.js, Express.js, Handlebars.js, Passport, JSON Web Tokens, MySQL (including Sequelize CLI), MongoDB (including Mongoose), and various CSS libraries (Bootstrap, Materialize).</p>
                 </div>
                 </div>
+                
                 <div className="row">
-                <div className="col-sm-12">
-                    <p className="bio">My design style tends to be simplistic, yet elegant. I enjoy challenging myself by implimenting complex transitions and functions into the applications I build. I am constantly researching new technologies that I can then impliment in the applications I build.</p>
+                    <div className="col-sm-8">
+                        <div className="row">
+                        <div className="col-sm-12">
+                        <p className="bio">My design style tends to be simplistic, yet elegant. I enjoy challenging myself by implimenting complex transitions and functions into the applications I build. I am constantly researching new technologies that I can then impliment in the applications I build.</p>
+                        </div>
+                        </div>
+                        <div className="row">
+                        <div className="col-sm-12">
+                        <p className="bio">Making the user experience relatable and user-friendly is my top priority. I enjoy traveling and experiencing new places that challenge my understanding of the world. I believe a broadened world view is important for creating applications that appeal to a larger spectrum of users. </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-4">
+                        <div className="img-container">
+                            <img id="prof-pic" alt="me" src={img2} />
+                        </div>
+                    </div>
                 </div>
-                </div>
+                
             </div>
             
             

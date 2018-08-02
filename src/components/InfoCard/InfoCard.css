@@ -3,14 +3,16 @@
     width: 75%;
     margin: 50px auto;
     padding: 20px 40px 20px 40px;
-    border: 1px solid;
-    border-radius: 5px;
-    font-family: 'Kreon', serif;
+    border: 2px solid rgba(26, 81, 118, 0.961);
+    border-radius: 10px;
+    
 }
 
 .card-title {
     font-size: 30px;
     font: bolder;
+    color: rgba(26, 81, 118, 0.961);
+    font-size: 36px; 
 }
 
 
@@ -21,7 +23,9 @@ p {
 
 #prof-pic {
     margin-bottom: 20px;
-    width: 100%;
+    width: 300px;
+    border: 2px solid rgba(26, 81, 118, 0.961);
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 1256px) {
